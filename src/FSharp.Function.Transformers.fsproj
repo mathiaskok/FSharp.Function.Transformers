@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Mathias Kok</Authors>
+    <PackageIcon>resources\Icon_128.jpg</PackageIcon>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageLicenseFile>resources\LICENSE</PackageLicenseFile>
+    <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+    <Description>Various helpers for transforming functions &amp; delegates.</Description>
+    <Copyright>2022 Mathias Kok</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Misc.fs" />
+    <Compile Include="Currying.fs" />
+    <Compile Include="DelegateTransformation.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\resources</PackagePath>
+    </None>
+    
+    <None Include="..\Icons\Icon_128.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\resources</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
