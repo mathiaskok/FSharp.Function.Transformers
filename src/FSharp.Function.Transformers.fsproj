@@ -6,12 +6,15 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Mathias Kok</Authors>
     <PackageIcon>resources\Icon_128.jpg</PackageIcon>
+    <PackageIconUrl>https://raw.githubusercontent.com/mathiaskok/FSharp.Function.Transformers/8dfb7a6f4559d487bc57b9de941ab7f89f4ef08d/Icons/Icon_128.jpg</PackageIconUrl>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <PackageLicenseFile>resources\LICENSE</PackageLicenseFile>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
     <Description>Various helpers for transforming functions &amp; delegates.</Description>
     <Copyright>2022 Mathias Kok</Copyright>
+    <PackageProjectUrl>https://github.com/mathiaskok/FSharp.Function.Transformers</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mathiaskok/FSharp.Function.Transformers</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
